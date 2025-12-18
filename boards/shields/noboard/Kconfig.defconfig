@@ -1,0 +1,6 @@
+if SHIELD_NOBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "noboard"
+
+endif # SHIELD_NOBOARD
