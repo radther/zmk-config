@@ -12,8 +12,9 @@
 
         default_layer {
             bindings = <
-                &kp A &kp B
-                &kp C &kp D
+                &kp A &bt BT_SEL 0
+                &bt BT_CLR &kp D
+                &out OUT_USB &out OUT_BLE
             >;
         };
     };
